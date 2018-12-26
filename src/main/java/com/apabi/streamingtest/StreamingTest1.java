@@ -24,7 +24,7 @@ public class StreamingTest1 {
     public static void main(String[] args) {
 
         //获取sparkconfig
-        SparkConf sparkConf =new SparkConf().setAppName("streaming01ssssss").setMaster("local[2]");
+        SparkConf sparkConf =new SparkConf().setAppName("streaming01sssssssss").setMaster("local[2]");
         sparkConf.set("spark.driver.allowMultipleContexts","true");
 //        //获取sparkcontext
 //        JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
